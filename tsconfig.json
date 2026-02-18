@@ -10,5 +10,8 @@
     "src/tests",
     "**/*.test.ts",
     "**/*.test.tsx"
-  ]
+  ],
+  "compilerOptions": {
+    "types": ["vitest/globals", "node"]
+  }
 }
